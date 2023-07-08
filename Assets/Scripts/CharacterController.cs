@@ -9,7 +9,6 @@ public class CharacterController : MonoBehaviour
     public float jumpSpeed;
     public float maxSpeed = 2;
 
-
     public bool jumpCheck;
     public bool dashCheck;
 
@@ -20,6 +19,9 @@ public class CharacterController : MonoBehaviour
     public bool isJumping;
     private bool isStopped;
 
+    public bool inWindZone = false;
+    public GameObject windZone;
+
     IEnumerator temp;
 
     void Start()
@@ -28,7 +30,7 @@ public class CharacterController : MonoBehaviour
         isJumping = true;
         obstacle = false;
         temp = stoppedCheck();
-        StartCoroutine(temp);
+        //StartCoroutine(temp);
     }
 
     // Update is called once per frame
@@ -48,10 +50,15 @@ public class CharacterController : MonoBehaviour
 
         if(rb.velocity.magnitude > maxSpeed)
         {
-            rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, 0, maxSpeed),rb.velocity.y);
+            rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -2, maxSpeed),rb.velocity.y);
         }
 
-        
+        if (inWindZone)
+        {
+            rb.AddForce(windZone.GetComponent<WindArea>().direction * windZone.GetComponent<WindArea>().strength);
+        }
+
+
     }
 
     IEnumerator stoppedCheck()
@@ -114,6 +121,12 @@ public class CharacterController : MonoBehaviour
         {
             obstacle = true;
         }
+
+        if (other.gameObject.tag == "windArea")
+        {
+            windZone = other.gameObject;
+            inWindZone = true;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other)
@@ -145,6 +158,11 @@ public class CharacterController : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle"))
         {
             obstacle = false;
+        }
+        if (other.gameObject.tag == "windArea")
+        {
+            windZone = other.gameObject;
+            inWindZone = false;
         }
     }
 }
