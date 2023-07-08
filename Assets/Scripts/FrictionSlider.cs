@@ -8,9 +8,22 @@ public class FrictionSlider : MonoBehaviour
 {
     [SerializeField] private Slider slider;
     [SerializeField] private TextMeshProUGUI sliderText;
-    public PhysicsMaterial2D pm;
+    private PhysicsMaterial2D phys;
+    public Rigidbody2D pm;
     void Start()
     {
-        slider.onValueChanged.AddListener((v) => { sliderText.text = v.ToString("0.00"); pm.friction = v; });
+        //slider.value = 9;
+        phys = new PhysicsMaterial2D();
+        pm.sharedMaterial = phys;
+        pm.sharedMaterial.friction = 10;
+
+        sliderText.text =pm.sharedMaterial.friction.ToString();
+        slider.onValueChanged.AddListener((v) => {
+            sliderText.text = v.ToString();
+            phys = new PhysicsMaterial2D();
+            pm.sharedMaterial = phys;
+            pm.sharedMaterial.friction = v;
+        });
+
     }
 }

@@ -7,12 +7,14 @@ public class CharacterController : MonoBehaviour
     public float speed;
     private float Move;
     public float jumpSpeed;
+    public float fallGravityMultiplier;
     public float maxSpeed = 2;
 
     public bool jumpCheck;
     public bool dashCheck;
 
     public GameObject lostPanel;
+    public GameObject winPanel;
     public Rigidbody2D rb;
 
     private bool obstacle;
@@ -37,17 +39,19 @@ public class CharacterController : MonoBehaviour
     void FixedUpdate()
     {
         
-            int rbPos = (int)rb.gravityScale;
-            Move = 1f;
+        int rbPos = (int)rb.gravityScale;
+        float direction = -Mathf.Sign(Physics2D.gravity.y);
+        Move = 1f;
 
-            //rb.velocity = new Vector2(speed * Move, rb.velocity.y);
+        //rb.velocity = new Vector2(speed * Move, rb.velocity.y);
 
-            rb.AddForce(new Vector2 (speed*Move, rb.velocity.y));
-            if (jumpCheck && !isJumping && obstacle)
-            {
-                rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos));
-            }
+        rb.AddForce(new Vector2 (speed*Move, rb.velocity.y));
+        if (jumpCheck && !isJumping && obstacle)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos*direction), ForceMode2D.Impulse);
+        }
 
+           
         if(rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -2, maxSpeed),rb.velocity.y);
@@ -70,7 +74,7 @@ public class CharacterController : MonoBehaviour
             if (rb.velocity.magnitude > 0)
             {
                 Debug.Log("if" + rb.velocity.magnitude);
-                Lost(false);
+                Win(false);
                 flag = true;
             }
             else
@@ -84,7 +88,7 @@ public class CharacterController : MonoBehaviour
                 if(rb.velocity.magnitude <=0)
                 {
                     flag = false;
-                    Lost(true);
+                    Win(true);
                 }
                 
 
@@ -95,10 +99,10 @@ public class CharacterController : MonoBehaviour
         
     }
 
-    void Lost(bool t)
+    void Win(bool t)
     {
         //Physics2D.autoSimulation = false;
-        lostPanel.SetActive(t);
+        winPanel.SetActive(t);
         //StopAllCoroutines();
     }
 
@@ -108,10 +112,7 @@ public class CharacterController : MonoBehaviour
         {
             isJumping = false;
         }
-        if (other.gameObject.CompareTag("Spikes"))
-        {
-            Lost(true);
-        }
+        
 
     }
 
@@ -126,6 +127,16 @@ public class CharacterController : MonoBehaviour
         {
             windZone = other.gameObject;
             inWindZone = true;
+        }
+
+        if (other.gameObject.tag == "Finish")
+        {
+            lostPanel.SetActive(true);
+        }
+
+        if (other.gameObject.CompareTag("Spikes"))
+        {
+            Win(true);
         }
     }
 

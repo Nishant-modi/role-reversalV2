@@ -11,6 +11,11 @@ public class GravitySlider : MonoBehaviour
     public CharacterController player;
     void Start()
     {
-        slider.onValueChanged.AddListener((v) => { sliderText.text = v.ToString("0.00"); player.rb.gravityScale=v; });
+        Physics2D.gravity = new Vector2(0f, slider.value);
+        slider.onValueChanged.AddListener((v) => { 
+            sliderText.text = v.ToString(); 
+            //player.rb.gravityScale=v;
+            Physics2D.gravity = new Vector2(0f,v);
+        });
     }
 }
