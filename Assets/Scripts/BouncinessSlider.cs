@@ -19,7 +19,7 @@ public class BouncinessSlider : MonoBehaviour
             phys = new PhysicsMaterial2D();
             i.sharedMaterial = phys;
             i.sharedMaterial.bounciness = 0f;
-            i.sharedMaterial.friction = 5;
+            i.sharedMaterial.friction = 0f;
 
             //Debug.Log(i + " "+ i.sharedMaterial + " Bounciness - " + i.sharedMaterial.bounciness);
             //Debug.Log(i + " " + i.sharedMaterial + " Friction - " + i.sharedMaterial.friction);

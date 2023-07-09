@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 7da786eec85482c4d8b9b5348d7ce54c
   - enabled: 1
+    path: Assets/Scenes/FTUE.unity
+    guid: e29e31f6824ea28439ef607ccf0d52b8
+  - enabled: 1
     path: Assets/Scenes/SC.unity
     guid: ae178d406a8bd9340ac7d8b85514390a
   - enabled: 1
@@ -28,5 +31,5 @@ EditorBuildSettings:
     guid: 170d6c50af69fc543ac1d1b33b81b5af
   - enabled: 1
     path: Assets/Scenes/Last.unity
-    guid: 054d6bc1f15db1f46b8d6b666f5991de
+    guid: 1d31cc691cc3e37448798aab97faf39f
   m_configObjects: {}
