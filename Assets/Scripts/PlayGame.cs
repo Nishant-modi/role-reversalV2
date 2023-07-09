@@ -14,4 +14,14 @@ public class PlayGame : MonoBehaviour
         //int index = SceneManager.GetActiveScene();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void next()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
+
+    public void playagain()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

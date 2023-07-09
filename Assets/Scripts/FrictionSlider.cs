@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class FrictionSlider : MonoBehaviour
 {
     [SerializeField] private Slider slider;
-    [SerializeField] private TextMeshProUGUI sliderText;
+    //[SerializeField] private TextMeshProUGUI sliderText;
     private PhysicsMaterial2D phys;
     public Rigidbody2D[] pm;
     void Start()
@@ -19,9 +19,9 @@ public class FrictionSlider : MonoBehaviour
             i.sharedMaterial = phys;
             i.sharedMaterial.friction = 10;
 
-            sliderText.text = i.sharedMaterial.friction.ToString();
+            //sliderText.text = i.sharedMaterial.friction.ToString();
             slider.onValueChanged.AddListener((v) => {
-                sliderText.text = v.ToString();
+                //sliderText.text = v.ToString();
                 phys = new PhysicsMaterial2D();
                 i.sharedMaterial = phys;
                 i.sharedMaterial.friction = v;

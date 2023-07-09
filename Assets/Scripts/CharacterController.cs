@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class CharacterController : MonoBehaviour
     public bool jumpCheck;
     public bool dashCheck;
     public bool movementCheck;
+
+    public Text xAxis;
+    public Text yAxis;
+    public Text zAxis;
 
     public GameObject lostPanel;
     public GameObject winPanel;
@@ -41,7 +46,10 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
+        xAxis.text = "" + rb.position.x;
+        yAxis.text = "" + rb.position.y;
+        zAxis.text = "0";
+
         int rbPos = (int)rb.gravityScale;
         float direction = -Mathf.Sign(Physics2D.gravity.y);
         Move = 1f;
