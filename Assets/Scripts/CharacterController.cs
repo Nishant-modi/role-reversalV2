@@ -12,6 +12,7 @@ public class CharacterController : MonoBehaviour
 
     public bool jumpCheck;
     public bool dashCheck;
+    public bool movementCheck;
 
     public GameObject lostPanel;
     public GameObject winPanel;
@@ -45,11 +46,15 @@ public class CharacterController : MonoBehaviour
 
         //rb.velocity = new Vector2(speed * Move, rb.velocity.y);
 
-        rb.AddForce(new Vector2 (speed*Move, rb.velocity.y));
-        if (jumpCheck && !isJumping && obstacle)
+        if (movementCheck)
         {
-            rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos*direction), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(speed * Move, rb.velocity.y));
+            if (jumpCheck && !isJumping && obstacle)
+            {
+                rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos * direction), ForceMode2D.Impulse);
+            }
         }
+        
 
            
         if(rb.velocity.magnitude > maxSpeed)

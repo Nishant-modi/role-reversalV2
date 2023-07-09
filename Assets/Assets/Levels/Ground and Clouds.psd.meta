@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 02b4b8498c102ae43bc9b45e6595976f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground and Clouds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e8b7c5ae946c3499493c6690280d07
+      internalID: 1298691078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec28470b5b10e3e4c877ec7babb7a288
+      internalID: -1807781163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd5491f15d80de44bcf9a5d9c282a25
+      internalID: -1232754727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ced3359e0c517d41af54f3d3d895d5f
+      internalID: -2051694428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915631beadd315b4cb0e37e4c16b7415
+      internalID: -576872577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe86658158dfc974b88e1fe14a83dc90
+      internalID: -157709051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623f2eb7cd172fc439b5934b4658509c
+      internalID: 731095457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473a788b0cb48a64daad923ec659ccbb
+      internalID: 1200506057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea01344509c353439834a9e290ddb1b
+      internalID: 1823964166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9d494c5fa75dc45805301b0b81efb7
+      internalID: -155748575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecc0908282744a4bb3c9d85fea03fef
+      internalID: -1237713590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e4546f83a6eab438790a966fec9cfc
+      internalID: 739868684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d29aaf9d12d03439962e5f6f68e6ad
+      internalID: 2034731989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e62b999a31d944fb7dcc21ce7a7a9a
+      internalID: -525753284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601383acb5608c845a84833c25782ee1
+      internalID: 2071404534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b420f1c89cff14fbbb8f7f8674ae1b
+      internalID: -442699587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e53916ee4d42af40aea665a32066acd
+      internalID: 1860010165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86fced17f9c22479b9f0319001a86d
+      internalID: -572525567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131f0b2f3fe732c4f8d213af5b529f31
+      internalID: 841767888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133b6d5a0809252418180b5fa24afbc7
+      internalID: 1167699538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c871e18733d209541a4b8cb9c8476a84
+      internalID: 1434439638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399583ebc1cd3114bb229b517e29057a
+      internalID: 224149539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0b3bf15659e24eaaa36e9561ad205
+      internalID: -787774795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c05c2226185d714782897788e2482fe
+      internalID: -52638896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430cc319e0ba78949ada1c499d97621d
+      internalID: 491796950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43bc8f05f2202499a1ccee4ae54238
+      internalID: 547242001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e15010b77c4902459bb44abc6786ef0
+      internalID: -360664864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9360fb5ade8be4387e2a38312527bf
+      internalID: 1443217122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117ff82f9ce1816428e63f3f25e76eca
+      internalID: -890309348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce2cfff41322146afaa92ad328a7af
+      internalID: 1595971636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddd82e5f6e7f4d47aa197831d95910f
+      internalID: -427667930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20366250f518c6040bbc6214c827ac35
+      internalID: -1270088207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e0060d1975c446b0af494f47e3d01
+      internalID: -80013292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a864d7389a3372e44a245e75080c1db2
+      internalID: 44684559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e858bdfdbce8ed44fa5a1fb8d43cf5cb
+      internalID: 209210419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f287eebcd1c26b24699ace193a51e209
+      internalID: -1755571181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d3cd7dada18684eaa739891d528ad6
+      internalID: -1879393812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702f3fe9ff3a6cc47a1fca97e19cdb9a
+      internalID: -648511415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4822041e615a5984ab179ee5db2ee6b6
+      internalID: -941932739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14660aa9ae4e3644ebcc2f9db09efea3
+      internalID: 905397898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0ae69cf1fde5e40ab4152f550596c7
+      internalID: 1736619390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5571438ba4e7044a5608593e42b5d4
+      internalID: -45569096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_42
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6644f23b1b63a47b9362fd5ce4ead0
+      internalID: 946279833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a34f541119394ba8f208dddcb5cc7
+      internalID: 864212019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e850cf435b8a4da4eaa70e23e6ca0
+      internalID: -2045671934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a2fc7233c88534995fab210c556c85
+      internalID: 381742271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c98759d8b2d974d982d3b69c979555
+      internalID: 809498166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2578fe5f7079d4ea4924c3ffd31364
+      internalID: 1155111369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_48
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd61b6fc8acf3d48b5640f76da87bd3
+      internalID: 1712352557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1ce8b3ec171314387a08a9eb310dbe
+      internalID: 1408419211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e768d83b3f9fed4689e1f7dfb2ede5b
+      internalID: 1827336688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_51
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31003edb7bee0054c89f9245d2399b14
+      internalID: -596178447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fea478fb739fa489ce25290bde3455
+      internalID: -844803527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca317213583d274f863d4910865acf8
+      internalID: -1941100956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d337d9c94bc4448619463d5dc109f
+      internalID: -1023688110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc78e4c4e39861f4098635508acc23e1
+      internalID: -1473207203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0709f1df4d1b34aae8c90a6932dafd
+      internalID: 1199889056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd105a39e17f240a79673b4a377fd0
+      internalID: 1889563555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_58
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62547b4559c7c4346b1d0f9eb8362023
+      internalID: 924718718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29642f4610a7b14ea7ee8250ef57efe
+      internalID: 941471155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd59f6e395ae2242880dcd672927342
+      internalID: 164364917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b159d40e12146f94d9c9d0fc47f1b412
+      internalID: 651926987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af74a4a971c9db4881f8fda2c80712f
+      internalID: -1622143192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5de1dfa1c4897546baba8e2807cff76
+      internalID: 687652155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_64
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03de93570c374e54c9e94e04a8bee167
+      internalID: -1482057994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5542d0fea991e64f9d51bf8eef9dd3c
+      internalID: 958144916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_66
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc7759f3819da4bbdbce68bb16e203
+      internalID: 583337001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38bb82447868994c926811a5811c438
+      internalID: 1883254878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground and Clouds_68
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e585e71300f443802ac141be0dabb
+      internalID: 1227330666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ground and Clouds_25: 547242001
+      Ground and Clouds_4: -576872577
+      Ground and Clouds_58: 924718718
+      Ground and Clouds_38: -941932739
+      Ground and Clouds_33: 44684559
+      Ground and Clouds_47: 1155111369
+      Ground and Clouds_17: -572525567
+      Ground and Clouds_46: 809498166
+      Ground and Clouds_8: 1823964166
+      Ground and Clouds_12: 2034731989
+      Ground and Clouds_56: 1199889056
+      Ground and Clouds_50: 1827336688
+      Ground and Clouds_6: 731095457
+      Ground and Clouds_53: -1941100956
+      Ground and Clouds_22: -787774795
+      Ground and Clouds_65: 958144916
+      Ground and Clouds_60: 164364917
+      Ground and Clouds_66: 583337001
+      Ground and Clouds_1: -1807781163
+      Ground and Clouds_5: -157709051
+      Ground and Clouds_40: 1736619390
+      Ground and Clouds_55: -1473207203
+      Ground and Clouds_37: -648511415
+      Ground and Clouds_16: 1860010165
+      Ground and Clouds_2: -1232754727
+      Ground and Clouds_26: -360664864
+      Ground and Clouds_39: 905397898
+      Ground and Clouds_49: 1408419211
+      Ground and Clouds_34: 209210419
+      Ground and Clouds_7: 1200506057
+      Ground and Clouds_9: -155748575
+      Ground and Clouds_54: -1023688110
+      Ground and Clouds_3: -2051694428
+      Ground and Clouds_35: -1755571181
+      Ground and Clouds_57: 1889563555
+      Ground and Clouds_52: -844803527
+      Ground and Clouds_21: 224149539
+      Ground and Clouds_28: -890309348
+      Ground and Clouds_59: 941471155
+      Ground and Clouds_24: 491796950
+      Ground and Clouds_36: -1879393812
+      Ground and Clouds_0: 1298691078
+      Ground and Clouds_29: 1595971636
+      Ground and Clouds_18: 841767888
+      Ground and Clouds_42: 946279833
+      Ground and Clouds_48: 1712352557
+      Ground and Clouds_23: -52638896
+      Ground and Clouds_31: -1270088207
+      Ground and Clouds_67: 1883254878
+      Ground and Clouds_11: 739868684
+      Ground and Clouds_19: 1167699538
+      Ground and Clouds_30: -427667930
+      Ground and Clouds_61: 651926987
+      Ground and Clouds_41: -45569096
+      Ground and Clouds_20: 1434439638
+      Ground and Clouds_64: -1482057994
+      Ground and Clouds_51: -596178447
+      Ground and Clouds_13: -525753284
+      Ground and Clouds_27: 1443217122
+      Ground and Clouds_68: 1227330666
+      Ground and Clouds_14: 2071404534
+      Ground and Clouds_45: 381742271
+      Ground and Clouds_15: -442699587
+      Ground and Clouds_63: 687652155
+      Ground and Clouds_62: -1622143192
+      Ground and Clouds_44: -2045671934
+      Ground and Clouds_10: -1237713590
+      Ground and Clouds_32: -80013292
+      Ground and Clouds_43: 864212019
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

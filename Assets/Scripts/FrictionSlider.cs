@@ -9,21 +9,27 @@ public class FrictionSlider : MonoBehaviour
     [SerializeField] private Slider slider;
     [SerializeField] private TextMeshProUGUI sliderText;
     private PhysicsMaterial2D phys;
-    public Rigidbody2D pm;
+    public Rigidbody2D[] pm;
     void Start()
     {
         //slider.value = 9;
-        phys = new PhysicsMaterial2D();
-        pm.sharedMaterial = phys;
-        pm.sharedMaterial.friction = 10;
-
-        sliderText.text =pm.sharedMaterial.friction.ToString();
-        slider.onValueChanged.AddListener((v) => {
-            sliderText.text = v.ToString();
+        foreach (Rigidbody2D i in pm)
+        {
             phys = new PhysicsMaterial2D();
-            pm.sharedMaterial = phys;
-            pm.sharedMaterial.friction = v;
-        });
+            i.sharedMaterial = phys;
+            i.sharedMaterial.friction = 10;
+
+            sliderText.text = i.sharedMaterial.friction.ToString();
+            slider.onValueChanged.AddListener((v) => {
+                sliderText.text = v.ToString();
+                phys = new PhysicsMaterial2D();
+                i.sharedMaterial = phys;
+                i.sharedMaterial.friction = v;
+            });
+        }
+        
+
+        
 
     }
 }
