@@ -12,6 +12,8 @@ public class WindDirection : MonoBehaviour
     public WindArea area;
     void Start()
     {
-        slider.onValueChanged.AddListener((v) => { sliderText.text = v.ToString("0.00"); area.direction = new Vector2(v,0); });
+        slider.onValueChanged.AddListener((v) => { 
+            //sliderText.text = v.ToString("0.00"); 
+            area.direction = new Vector2(v,0); });
     }
 }

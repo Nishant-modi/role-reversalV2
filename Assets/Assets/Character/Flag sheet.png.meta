@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f120f7a6296cf7a43adb19c50b0cfeb8
+guid: 20f8d18814bb3ca429f38f77186a0855
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,106 +141,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Sprite_0
+      name: Flag sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 38
+        y: 13
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2897b040011385b4c90e0ffcb49f62f4
-      internalID: -539929779
+      spriteID: 931b64a3ccab986489dc0552e8f36c2e
+      internalID: 1602900263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Sprite_1
+      name: Flag sheet_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d0294a7926e5a34684c21d015acd715
-      internalID: -798187613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_2
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 2, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb6b9869068c974e82d19a62ad3aaa9
-      internalID: -108798225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_3
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fccb9e7fad504a046b7ba9ef9e1cda0d
-      internalID: 1930335230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_4
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 150
+        y: 13
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6957fa0608d7e44bb5ba72a0631d17
-      internalID: -149633690
+      spriteID: 815f9360c5ae082488a526aa0c2558fc
+      internalID: 494458924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flag sheet_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 13
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2139c446b8b46a4fae5cf98e11e7337
+      internalID: -986764623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flag sheet_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 13
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cfcdceeec90f74ab7a6a8b3f0f5bc0
+      internalID: 761733196
       vertices: []
       indices: 
       edges: []
@@ -256,11 +235,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle Sprite_4: -149633690
-      Idle Sprite_2: -108798225
-      Idle Sprite_0: -539929779
-      Idle Sprite_1: -798187613
-      Idle Sprite_3: 1930335230
+      Flag sheet_0: 1602900263
+      Flag sheet_3: 761733196
+      Flag sheet_2: -986764623
+      Flag sheet_1: 494458924
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

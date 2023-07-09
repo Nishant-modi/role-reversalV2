@@ -9,4 +9,9 @@ public class PlayGame : MonoBehaviour
     {
         SceneManager.LoadScene("Intro");
     }
+    public void restart()
+    {
+        //int index = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

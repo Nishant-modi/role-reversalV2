@@ -17,10 +17,12 @@ public class CharacterController : MonoBehaviour
     public GameObject lostPanel;
     public GameObject winPanel;
     public Rigidbody2D rb;
+    public Collider2D cl;
+    public Animator animator;
 
     private bool obstacle;
     public bool isJumping;
-    private bool isStopped;
+    private bool isStopped = false;
 
     public bool inWindZone = false;
     public GameObject windZone;
@@ -33,7 +35,7 @@ public class CharacterController : MonoBehaviour
         isJumping = true;
         obstacle = false;
         temp = stoppedCheck();
-        //StartCoroutine(temp);
+        StartCoroutine(temp);
     }
 
     // Update is called once per frame
@@ -46,15 +48,38 @@ public class CharacterController : MonoBehaviour
 
         //rb.velocity = new Vector2(speed * Move, rb.velocity.y);
 
-        if (movementCheck)
+        if (movementCheck && !isStopped)
         {
             rb.AddForce(new Vector2(speed * Move, rb.velocity.y));
             if (jumpCheck && !isJumping && obstacle)
             {
                 rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos * direction), ForceMode2D.Impulse);
+                animator.SetBool("isWalking", false);
+                animator.SetBool("isJumpingUp", true);
+            }
+
+            if (inWindZone)
+            {
+                if (windZone.GetComponent<WindArea>().direction.x >= 0)
+                {
+                    rb.AddForce(new Vector2(1, 0) * windZone.GetComponent<WindArea>().strength);
+                }
+                else
+                {
+                    rb.AddForce(new Vector2(-1, 0) * windZone.GetComponent<WindArea>().strength);
+                }
+
             }
         }
-        
+
+        if(rb.velocity.x!=0)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
 
            
         if(rb.velocity.magnitude > maxSpeed)
@@ -62,10 +87,7 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -2, maxSpeed),rb.velocity.y);
         }
 
-        if (inWindZone)
-        {
-            rb.AddForce(windZone.GetComponent<WindArea>().direction * windZone.GetComponent<WindArea>().strength);
-        }
+        
 
 
     }
@@ -90,10 +112,10 @@ public class CharacterController : MonoBehaviour
                     yield return new WaitForSeconds(1f);
                 }
                 
-                if(rb.velocity.magnitude <=0)
+                if(rb.velocity.magnitude == 0)
                 {
                     flag = false;
-                    Win(true);
+                    StartCoroutine(Win2(true));
                 }
                 
 
@@ -104,10 +126,38 @@ public class CharacterController : MonoBehaviour
         
     }
 
-    void Win(bool t)
+    IEnumerator Win2(bool t)
     {
         //Physics2D.autoSimulation = false;
+        //rb.isKinematic = true;
+        //yield return new WaitForSeconds(3f);
         winPanel.SetActive(t);
+        yield return null;
+        //StopAllCoroutines();
+    }
+
+    IEnumerator Win(bool t)
+    {
+        //Physics2D.autoSimulation = false;
+        //rb.isKinematic = true;
+        StopCoroutine(temp);
+        yield return new WaitForSeconds(1.5f);
+        cl.enabled = false;
+        
+        yield return new WaitForSeconds(1.5f);
+        winPanel.SetActive(t);
+        yield return null;
+        //StopAllCoroutines();
+    }
+
+    IEnumerator Lost(bool t)
+    {
+        //Physics2D.autoSimulation = false;
+        //rb.isKinematic = true;
+        StopCoroutine(temp);
+        yield return new WaitForSeconds(3f);
+        lostPanel.SetActive(t);
+        yield return null;
         //StopAllCoroutines();
     }
 
@@ -116,6 +166,7 @@ public class CharacterController : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+            animator.SetBool("isJumpingUp", false);
         }
         
 
@@ -136,12 +187,18 @@ public class CharacterController : MonoBehaviour
 
         if (other.gameObject.tag == "Finish")
         {
-            lostPanel.SetActive(true);
+            isStopped = true;
+            animator.Play("Player_Win");
+            StartCoroutine(Lost(true));
         }
 
         if (other.gameObject.CompareTag("Spikes"))
         {
-            Win(true);
+            isStopped = true;
+            
+            animator.Play("Player_Death", -1, 0f);
+            //animator.StopPlayback("Player_Death");
+            StartCoroutine(Win(true));
         }
     }
 

@@ -18,14 +18,14 @@ public class BouncinessSlider : MonoBehaviour
         {
             phys = new PhysicsMaterial2D();
             i.sharedMaterial = phys;
-            i.sharedMaterial.bounciness = 0.5f;
+            i.sharedMaterial.bounciness = 0f;
             i.sharedMaterial.friction = 1;
 
-            Debug.Log(i + " "+ i.sharedMaterial + " Bounciness - " + i.sharedMaterial.bounciness);
-            Debug.Log(i + " " + i.sharedMaterial + " Friction - " + i.sharedMaterial.friction);
+            //Debug.Log(i + " "+ i.sharedMaterial + " Bounciness - " + i.sharedMaterial.bounciness);
+            //Debug.Log(i + " " + i.sharedMaterial + " Friction - " + i.sharedMaterial.friction);
 
-            bSliderText.text = i.sharedMaterial.bounciness.ToString();
-            fSliderText.text = i.sharedMaterial.bounciness.ToString();
+            //bSliderText.text = i.sharedMaterial.bounciness.ToString();
+            //fSliderText.text = i.sharedMaterial.bounciness.ToString();
             bSlider.onValueChanged.AddListener((v) => {
                 bSliderText.text = v.ToString();
                 //phys = new PhysicsMaterial2D();

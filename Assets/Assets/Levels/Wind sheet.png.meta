@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f120f7a6296cf7a43adb19c50b0cfeb8
+guid: a486761fe98638741a075bbf4571fd64
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,106 +141,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Sprite_0
+      name: Wind sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1548
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf059f872d051240867b2f1b8ce0461
+      internalID: -110475382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed8230b3d6db3c4ca3de8e2d4318654
+      internalID: -1035445937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba5b3ea71c09804a8f73ba1e4deae6d
+      internalID: -2078817767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faac886909bfec47a919a62bd7c696a
+      internalID: 1493344513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a251cc0a76ebe1d4083db84366a67bcd
+      internalID: 1388578411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f24f44e707a1045b87bdc4f4055712
+      internalID: 2069703795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660ffddfc84bd04a8c9290d152c93bd
+      internalID: 1699891602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4afb67d0264904cb430610daa1d366
+      internalID: -1823640604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e6be3f57415e4ab809fa0d7b60d73
+      internalID: -1595719147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind sheet_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 1920
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2897b040011385b4c90e0ffcb49f62f4
-      internalID: -539929779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_1
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d0294a7926e5a34684c21d015acd715
-      internalID: -798187613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_2
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 2, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb6b9869068c974e82d19a62ad3aaa9
-      internalID: -108798225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_3
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fccb9e7fad504a046b7ba9ef9e1cda0d
-      internalID: 1930335230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Sprite_4
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 0
-        width: 49
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c6957fa0608d7e44bb5ba72a0631d17
-      internalID: -149633690
+      spriteID: 270b6f95a88c062428e056ac97fa6889
+      internalID: 782803619
       vertices: []
       indices: 
       edges: []
@@ -256,11 +361,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle Sprite_4: -149633690
-      Idle Sprite_2: -108798225
-      Idle Sprite_0: -539929779
-      Idle Sprite_1: -798187613
-      Idle Sprite_3: 1930335230
+      Wind sheet_5: 2069703795
+      Wind sheet_7: -1823640604
+      Wind sheet_6: 1699891602
+      Wind sheet_9: 782803619
+      Wind sheet_0: -110475382
+      Wind sheet_2: -2078817767
+      Wind sheet_3: 1493344513
+      Wind sheet_1: -1035445937
+      Wind sheet_4: 1388578411
+      Wind sheet_8: -1595719147
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
