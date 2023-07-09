@@ -15,6 +15,6 @@ public class StartLevel : MonoBehaviour
     }
     public void nextLevelStart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }
