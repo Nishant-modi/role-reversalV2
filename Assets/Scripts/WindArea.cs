@@ -7,24 +7,31 @@ public class WindArea : MonoBehaviour
 {
     public float strength;
     public Vector2 direction;
+    public CharacterController cc;
 
     [SerializeField] private GameObject rw;
     [SerializeField] private GameObject lw;
 
     public void Update()
     {
-        if(direction.x < 0 && strength >1)
+
+        if(strength>13)
         {
-           lw.SetActive(true);
-           rw.SetActive(false);
-        }
-        else if(direction.x>=0 && strength>1)
-        {
-            rw.SetActive(true);
-            lw.SetActive(false);
-        }
+            cc.isItWindy = true;
+            if (direction.x < 0)
+            {
+                lw.SetActive(true);
+                rw.SetActive(false);
+            }
+            else if (direction.x >= 0)
+            {
+                rw.SetActive(true);
+                lw.SetActive(false);
+            }
+        }    
         else
         {
+            cc.isItWindy = false;
             rw.SetActive(false);
             lw.SetActive(false);
         }

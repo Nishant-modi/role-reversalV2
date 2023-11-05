@@ -31,6 +31,7 @@ public class CharacterController : MonoBehaviour
 
     public bool inWindZone = false;
     public GameObject windZone;
+    public bool isItWindy = false;
 
     IEnumerator temp;
 
@@ -58,15 +59,12 @@ public class CharacterController : MonoBehaviour
 
         if (movementCheck && !isStopped)
         {
-            rb.AddForce(new Vector2(speed * Move, rb.velocity.y));
-            if (jumpCheck && !isJumping && obstacle)
+            if(!isItWindy)
             {
-                rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos * direction), ForceMode2D.Impulse);
-                animator.SetBool("isWalking", false);
-                animator.SetBool("isJumpingUp", true);
+                rb.AddForce(new Vector2(speed * Move, rb.velocity.y));
+                
             }
-
-            if (inWindZone)
+            else
             {
                 if (windZone.GetComponent<WindArea>().direction.x >= 0)
                 {
@@ -77,6 +75,12 @@ public class CharacterController : MonoBehaviour
                     rb.AddForce(new Vector2(-1, 0) * windZone.GetComponent<WindArea>().strength);
                 }
 
+            }
+            if (jumpCheck && !isJumping && obstacle)
+            {
+                rb.AddForce(new Vector2(rb.velocity.x, jumpSpeed * rbPos * direction), ForceMode2D.Impulse);
+                animator.SetBool("isWalking", false);
+                animator.SetBool("isJumpingUp", true);
             }
         }
 
